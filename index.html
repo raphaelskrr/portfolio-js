@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
-    <title>Portifólio Raphael P Julio</title>
+    <title>Portfólio Raphael P Julio</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -18,10 +18,14 @@
     <link rel="stylesheet" href="./assets/css/header.css" />
     <link rel="stylesheet" href="./assets/css/global.css" />
     <link rel="stylesheet" href="./assets/css/acordeon.css" />
+    <link rel="stylesheet" href="./assets/css/languages.css">
+    <link rel="stylesheet" href="./assets/css/portfolio.css">
+    <link rel="stylesheet" href="./assets/css/experience.css">
+    <link rel="stylesheet" href="./assets/css/skills.css">
   </head>
 
   <body>
-    <div class="main">
+    <main class="main">
       <header class="header">
         <img
           src="./assets/img/raphaelPaiva.png"
@@ -36,22 +40,123 @@
         <div class="information">
           <p class="role">Junior Developer</p>
           <p class="location">São Paulo - SP</p>
-          <p class="phone">(11) 94905-4188</p>
-          <p class="email">raphaelj.dev@gmail.com</p>
+          <p class="phone">
+            <a href="tel:+55 (11) 94905-4188">+55 (11) 94905-4188</a>
+          </p>
+          <p class="email">
+            <a href="mailto:raphaelj.dev@gmail.com">raphaelj.dev@gmail.com</a>
+          </p>
         </div>
       </header>
 
-      <section class="acordeon open">
-        <button class="trigger" type="button">Idiomas</button>
+      <section class="acordeon">
+        <button class="trigger" type="button"><h2>Skills</h2></button>
         <div class="content">
-          <ul>
-            <li>Português</li>
+          <div class="skills">
+            <section class="tools">
+              <h3>Habilidades profissionais:</h3>
+              <ul>
+                <li>
+                  <img src="./assets/img/languages/javascript.svg" alt="javascript" title="javascript">
+                </li>
+                <li>
+                  <img src="./assets/img/languages/react.svg" alt="react" title="react">
+                </li>
+                <li>
+                  <img src="./assets/img/languages/nodejs-colorido.svg" alt="node" title="node">
+                </li>
+                <li>
+                  <img src="./assets/img/languages/python.svg " alt="python" title="python">
+                </li>
+                <li>
+                  <img src="./assets/img/languages/git-colorido.svg" alt="git" title="git">
+                </li>
+                <li>
+                  <img src="./assets/img/languages/sql-colorido.svg" alt="sql" title="sql">
+                </li>
+              </ul>
+            </section>
+            <section class="personal">
+              <h3>Habilidades pessoais:</h3>
+              <ul>
+                <li>Liderança</li>
+                <li>Facilidade de comunicação</li>
+                <li>Organização</li>
+                <li>Trabalho em equipe</li>
+                <li>Flexibilidade</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="acordeon">
+        <button class="trigger" type="button"><h2>Idiomas</h2></button>
+        <div class="content">
+          <ul class="languages">
+            <li>Português (BR)</li>
             <li>Inglês</li>
             <li>Espanhol</li>
           </ul>
         </div>
       </section>
-    </div>
+
+      <section class="acordeon">
+        <button class="trigger" type="button"><h2>Portfólio (Alguns de meus projetos)</h2></button>
+        <div class="content">
+          <ul class="portfolio">
+            <li>
+              <h3 class="title github">Jujutsu Kaisen</h3>
+              <a href="https://site-jujutsu-do-raphael.vercel.app/" target="_blank">https://site-jujutsu-do-raphael.vercel.app/</a>
+            </li>
+            <li>
+              <h3 class="title github">VaporFocus</h3>
+              <a href="https://vaporfocus.vercel.app/" target="_blank">https://vaporfocus.vercel.app/</a>
+            </li>
+            <li>
+              <h3 class="title github">BMI Calculator</h3>
+              <a href="https://bmi-calculator-one-gamma.vercel.app/" target="_blank">https://bmi-calculator-one-gamma.vercel.app/</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="acordeon">
+        <button class="trigger" type="button"><h2>Educação</h2></button>
+        <div class="content">
+          <ul class="experience">
+            <li>
+              <h3 class="title">Engenharia de Software - Uninter</h3>
+              <p class="period">Jan 2024 - Dez 2028 (cursando)</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="acordeon">
+        <button class="trigger" type="button"><h2>Experiência Profissional</h2></button>
+        <div class="content">
+          <ul class="experience">
+            <li>
+              <h3 class="title">Front-end Developer / freelancer.com</h3>
+              <p class="period">Jun 2023 - Current</p>
+              <p>Utilizando as seguintes linguagens: HTML, CSS, JavaScript, React, PHP, Python e Java
+                criei e mantive websites para clientes impulsionarem seus serviços.
+                <br> Além dessas linguagens, realizei a criação de design gráfico (UX & UI) para os
+                websites.
+                </p>
+            </li>
+            <li>
+              <h3 class="title">Fullstack Developer / Sócio Torcedor</h3>
+              <p class="period">Jul 2023 - Dez 2024</p>
+              <p>Neste projeto eu e meu grupo realizamos a pesquisa de relevância no mercado,
+                identidade visual do aplicativo, desenvolvimento do aplicativo e o desenvolvimento do
+                mesmo. <br>
+               Foram utilizadas as seguintes linguagens no projeto: HTML, CSS, JavaScript, MySQL e
+                PHP.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
 
     <script src="./assets/js/acordeon.js"></script>
   </body>
