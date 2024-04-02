@@ -1,9 +1,9 @@
 {
-  "name": "Raphael P Julio",
-  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-  "job": "Fullstack Developer",
+  "name": "Raphael Paiva Julio",
+  "photo": "https://avatars.githubusercontent.com/u/124849229?v=4",
+  "role": "Fullstack Developer",
   "location": "São Paulo - SP",
-  "phone": "(11) 98159-7656",
+  "phone": "(11) 94905-4188",
   "email": "raphaelj.dev@gmail.com",
   "skills": {
     "hardSkills": [
@@ -42,37 +42,41 @@
   },
   "languages": [
     "Português BR",
-    "Inglês (intermediário)",
-    "Espanhol (intermediário)",
-    "Italiano (iniciante)"
+    "Inglês (avançado)",
+    "Espanhol (intermediário)"
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Site de Jujutsu Kaisen",
+      "url": "https://github.com/raphaelskrr/site-jujutsu",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Calculadora de BMI",
+      "url": "https://github.com/raphaelskrr/bmi-calculator",
+      "github": true
+    },
+    {
+      "name": "Garage Barbershop",
+      "url": "https://github.com/raphaelskrr/barbershop",
+      "github": true
+    },
+    {
+      "name": "Temporizador",
+      "url": "https://github.com/raphaelskrr/vaporfocus",
       "github": true
     }
   ],
   "professionalExperience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "name": "Front-end Developer / freelancer.com",
+      "period": "Jun 2023 - Até o momento.",
+      "description": "Utilizando as seguintes linguagens: HTML, CSS, JavaScript, React, PHP, Python e Java criei e mantive websites para clientes impulsionarem seus serviços."
     },
     {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
-    },
-    {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "name": "Fullstack Developer / Sócio Torcedor",
+      "period": "Jul 2023 - Dez 2024",
+      "description": "Neste projeto eu e meu grupo realizamos a pesquisa de relevância no mercado, identidade visual do aplicativo, desenvolvimento do aplicativo e o desenvolvimento do mesmo. Foram utilizadas as seguintes linguagens no projeto: HTML, CSS, JavaScript, MySQL e PHP."
     }
   ]
 }
