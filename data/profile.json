@@ -47,11 +47,6 @@
   ],
   "portfolio": [
     {
-      "name": "Site de Jujutsu Kaisen",
-      "url": "https://github.com/raphaelskrr/site-jujutsu",
-      "github": true
-    },
-    {
       "name": "Calculadora de BMI",
       "url": "https://github.com/raphaelskrr/bmi-calculator",
       "github": true
