@@ -10,8 +10,8 @@
 
 .acordeon.open,
 .acordeon:hover {
-  background-color: transparent;
-  border-color: white;
+  background-color: #8e85fb;
+  border-color: #8e85fb;
 }
 
 .acordeon .trigger {
